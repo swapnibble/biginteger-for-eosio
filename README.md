@@ -39,7 +39,7 @@ bit : &amp;, |, ^, <<=, >>= , etc.. ( see header for more details )
 
 <a name="build"></a>
 ## Build
-`eoscpp -o <wastOutput.wast> <yourContractSrc.cpp> eos_mem_wrapper.cpp BigInteger.cpp BigIntegerAlgorithms.cpp BigIntegerUtils.cpp BigUnsigned.cpp BigUnsignedInABase.cpp NumberlikeArray.cpp`
+`eoscpp -o <wastOutput.wast> <yourContractSrc.cpp> eos_mem_wrapper.cpp BigInteger.cpp BigIntegerAlgorithms.cpp BigIntegerUtils.cpp BigUnsigned.cpp BigUnsignedInABase.cpp`
 
 If linker complains about memory_heap variable, then change as followings:  
 
