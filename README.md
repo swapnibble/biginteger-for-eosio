@@ -44,11 +44,7 @@ bit : &amp;, |, ^, <<=, >>= , etc.. ( see header for more details )
 If linker complains about memory_heap variable, then change as followings:  
 
 find `memory_heap` variable in `memory.hpp` ( eoslib )  
-then, change : 
+then, change :
 <pre><code>
 static memory_manager memory_heap;
-</code></pre>
-  
-
-
-
+</code></pre
