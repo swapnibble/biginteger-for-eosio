@@ -1,3 +1,6 @@
+/** 
+ * This source adapted from https://mattmccutchen.net/bigint/ by Mithrilcoin.io for EOS.IO smart contract.
+ */
 #include "BigIntegerUtils.hpp"
 #include "BigUnsignedInABase.hpp"
 

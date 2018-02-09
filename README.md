@@ -6,6 +6,7 @@ BigInteger library for EOS Smart Contract
 - [What is this?](#what_is_this)
 - [Original author](#original_author)
 - [Example](#example)
+- [Operators](#operators)
 - [Build](#build)
 
 <a name="what_is_this"></a>
@@ -28,6 +29,13 @@ Matt McCutchen  ( [C++ Big Integer Library](https://mattmccutchen.net/bigint/) )
  print("a * a * a * a * a * a * a * a: ", ( a * a * a * a * a * a * a * a ) );  
 </code></pre>
 then, eosd prints 340282366920938463463374607431768211456.
+
+<a name="operators"></a>
+## Operators
+<pre><code>
+arithmetic : +, -, *, /, %, ++(pre, post), --(pre, post), +=, -=, *=, /=, %=, etc.. ( see header for more details )
+bit : &amp;, |, ^, <<=, >>= , etc.. ( see header for more details ) 
+</code></pre>
 
 <a name="build"></a>
 ## Build

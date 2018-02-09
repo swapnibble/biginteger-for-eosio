@@ -1,9 +1,12 @@
+/** 
+ * This source adapted from https://mattmccutchen.net/bigint/ by Mithrilcoin.io for EOS.IO smart contract.
+ */
 #ifndef BIGINTEGERUTILS_H
 #define BIGINTEGERUTILS_H
 
 #include "BigInteger.hpp"
 #include <eoslib/string.hpp>
-//#include <iostream>
+//swapnibble #include <iostream>
 
 /* This file provides:
  * - Convenient eosio::string <-> BigUnsigned/BigInteger conversion routines

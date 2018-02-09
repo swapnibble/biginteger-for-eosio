@@ -1,5 +1,8 @@
+/** 
+ * This source adapted from https://mattmccutchen.net/bigint/ by Mithrilcoin.io for EOS.IO smart contract.
+ */
+
 #include "BigInteger.hpp"
-#include "BigIntegerUtils.hpp"
 
 void BigInteger::operator =(const BigInteger &x) {
 	// Calls like a = a have no effect
@@ -378,7 +381,7 @@ void BigInteger::negate(const BigInteger &a) {
 	sign = Sign(-a.sign);
 }
 
-// swapnibble
+// print() override..
 void BigInteger::print() const {
 	bigIntegerToString(*this).print();
 }

@@ -1,3 +1,6 @@
+/** 
+ * This source adapted from https://mattmccutchen.net/bigint/ by Mithrilcoin.io for EOS.IO smart contract.
+ */
 #include "BigIntegerAlgorithms.hpp"
 #include <eoslib/system.h>
 
@@ -16,7 +19,7 @@ BigUnsigned gcd(BigUnsigned a, BigUnsigned b) {
 
 void extendedEuclidean(BigInteger m, BigInteger n,
 		BigInteger &g, BigInteger &r, BigInteger &s) {
-	//swapnibble
+	//gongsang
 	assert( &g != &r && &g != &s && &r != &s
 		, "BigInteger extendedEuclidean: Outputs are aliased" );
 	// if (&g == &r || &g == &s || &r == &s)
@@ -51,7 +54,7 @@ BigUnsigned modinv(const BigInteger &x, const BigUnsigned &n) {
 		// r*x + s*n == 1, so r*x === 1 (mod n), so r is the answer.
 		return (r % n).getMagnitude(); // (r % n) will be nonnegative
 	else {
-		//swapnibble throw "BigInteger modinv: x and n have a common factor";
+		//gongsang throw "BigInteger modinv: x and n have a common factor";
 		assert( 0, "BigInteger modinv: x and n have a common factor");
 		return 0; // here will never be reached!
 	}

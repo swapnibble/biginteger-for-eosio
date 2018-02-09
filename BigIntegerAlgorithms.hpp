@@ -1,3 +1,7 @@
+/** 
+ * This source adapted from https://mattmccutchen.net/bigint/ by Mithrilcoin.io for EOS.IO smart contract.
+ */
+
 #ifndef BIGINTEGERALGORITHMS_H
 #define BIGINTEGERALGORITHMS_H
 

@@ -1,4 +1,6 @@
-
+/** 
+ * BigInteger for EOS.IO smart contract by Mithrilcoin.io .
+ */
 #include <eoslib/memory.hpp>
 
 using namespace eosio;
