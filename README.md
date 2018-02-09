@@ -1,4 +1,4 @@
-# BigInt for EOS.IO
+# BigInteger for EOS.IO
 
 BigInteger library for EOS Smart Contract
 
